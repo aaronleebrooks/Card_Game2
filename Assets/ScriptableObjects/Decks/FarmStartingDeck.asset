@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10310ac45462a7a46bf5198b7ccc9c7e, type: 3}
+  m_Name: FarmStartingDeck
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 04aa3b74b47b6684c906f458259423de, type: 2}
+  - {fileID: 11400000, guid: 04aa3b74b47b6684c906f458259423de, type: 2}
+  - {fileID: 11400000, guid: 04aa3b74b47b6684c906f458259423de, type: 2}
+  - {fileID: 11400000, guid: 2ac589b09bbcced4ea28b98f48fa0758, type: 2}
+  - {fileID: 11400000, guid: f3b1d0c3078c1c842bfa04de4fc19974, type: 2}
+  - {fileID: 11400000, guid: 2fdad6e1cf1d6984d9784c97a3118c1d, type: 2}
+  - {fileID: 11400000, guid: 352c0653df8984b4abef5e6c619ca786, type: 2}
+  - {fileID: 11400000, guid: 3051c34847f88264f8a27a31e83f870e, type: 2}
+  - {fileID: 11400000, guid: 2ac589b09bbcced4ea28b98f48fa0758, type: 2}
+  - {fileID: 11400000, guid: bf840d6dcd726a942b476c8278fe2e77, type: 2}
+  cardBack: {fileID: 21300000, guid: 89832ac993ab7a543b39ebcbac91f394, type: 3}

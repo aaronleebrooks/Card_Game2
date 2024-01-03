@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87e5e2c9307a6f48ad9174f90e22d7d, type: 3}
+  m_Name: MotherLover
+  m_EditorClassIdentifier: 
+  typeId: 100012
+  cardModel: {fileID: 21300000, guid: 0c7ff5baaa26bb2449d1f78575568ee1, type: 3}
+  cost: 6
+  power: 4
+  title: Mother Lover
+  description: Overheal. Heal attack value at end of turn. Will target self if only
+    target.
+  flavor: Not as good as a hospital
+  background: {fileID: 21300000, guid: 96652bf887dfb6542adc24197a07cce5, type: 3}
+  creatureModel: {fileID: 21300000, guid: f1d2578341d9f0d428fff1917d15c3b6, type: 3}
+  health: 10
+  attack: 2

@@ -1,0 +1,5591 @@
+fileFormatVersion: 2
+guid: 33401d7f48a2b604596cfc74cf534886
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1870
+        width: 192
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be32ad75d81273c4d837ff27f8966dab
+      internalID: -927524988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1774
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33f6bd4403fd5f47b39c413221435e3
+      internalID: 1040852078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1774
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb255ee9b0512904382aa6ff24bf39a1
+      internalID: 1215905629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1774
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9122a25d287dcf74ab8c1bb27556b1a1
+      internalID: -567979014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1774
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980d4a11bae860940add0c0bbd92f77a
+      internalID: -1683769739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1774
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed0e644e56449b45bd48ad444d504b7
+      internalID: -450078787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_6
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1774
+        width: 382
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c8dad79f4292645961a409492af7fc
+      internalID: 813444454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_7
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1774
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f2e8e3c56d1ff45b41f4e99165535f
+      internalID: 1667019972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_8
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1774
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1680106cbb8ae4b41870fbe692be259f
+      internalID: 609649274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_9
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1774
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8365a1196db736479508a933b82fe36
+      internalID: 1906425432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_10
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1774
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b35fbd1c7794ec4db6006001cb9d457
+      internalID: -987625620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_11
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1774
+        width: 336
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438f0f365ea39ed48af191743a28e039
+      internalID: -1857389822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1679
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af1ca0f1773af64e9c0440b584a3351
+      internalID: 992705189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1681
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b5ccb29a5aec44e8e5d268b306ca97
+      internalID: 1599167874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1679
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6d09f51666d714f980287a290a24c0
+      internalID: 215044692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1679
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2217f337ba3ff742a69614cba648944
+      internalID: -261319384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_16
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1681
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7201ff52defcb4487ebc818d26ae0d
+      internalID: 1608067860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1583
+        width: 384
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc7b754e15e0b346a4af179a15cf99d
+      internalID: 1972825347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_18
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1681
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a534ff6e59f0a4f87ecaeb9585fc6c
+      internalID: -138425097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_19
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1679
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba4b5084e000d54aa90f3132baad14f
+      internalID: 1161629797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_20
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1679
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9cf5a7ecda1644aae33b28cabfad48
+      internalID: -4355576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_21
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1681
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c284ff57c19d00f4bb5b4cc10d29fdaa
+      internalID: -932575729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_22
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1679
+        width: 336
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c408a257ddc2678409597b14a1b44ec4
+      internalID: -17897245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1621
+        width: 289
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5764e280ecfed9747b1f894f6a923430
+      internalID: 1142256658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_24
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 1102
+        width: 457
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baa8259a875aa24bb2e28399737ac07
+      internalID: 663979376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1489
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f02a32a4cf2e444b76b350d916a9a8
+      internalID: 888281946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1489
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d69ef6a05e23bd419141ac9d6b8c3e9
+      internalID: -259806719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_27
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1489
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3fb3bd286cd4c4ab029fdfe05b3b74
+      internalID: 1639975604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1489
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46146a9a08d991d43a9bae9ea04e5bef
+      internalID: -1941587087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_29
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1489
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0133a597fc531c14eb000399c00b2c41
+      internalID: -1734339003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_30
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1489
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f87cc594674a543ab1ddf0c186be45
+      internalID: -1836023383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_31
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1489
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358a671f7b7feed4785648f026d2c80b
+      internalID: -570506695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_32
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1489
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefffebf9b241364887ac4cec048ab86
+      internalID: -420117986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_33
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1489
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceca29c45f098a4e8bede152e803239
+      internalID: -912178636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_34
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1489
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e2c22601fd9ab438e10a67bb7f4961
+      internalID: 1476487927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_35
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1489
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec12946ac08516949b3dd8621effa728
+      internalID: -272490898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_36
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1489
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7272f1fe92b77348845a8ebb6c19e3f
+      internalID: 1788158090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1394
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9cc00ae4b43f14ba9dbdddd79998f7
+      internalID: 371339955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_38
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1394
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6fb86ebe2742c479b78e442bafcddf
+      internalID: -1767845631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_39
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1394
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4c020f6a2fba84abae37a81edbf6c1
+      internalID: -858713964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_40
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1394
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acddb75ff928e2e4ea2f7f0f7abe4d7d
+      internalID: 1996385292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_41
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1394
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a17543a522ed24baf1d0ee9e5fede3
+      internalID: -572849520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_42
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1394
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f185a05d3bcff4c813c8bc79c9623a
+      internalID: -935817468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_43
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1394
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d08f426bea982544884f2c04918c02d
+      internalID: 1869648421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_44
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1394
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be462eb97927ee4b85c60b6bc0b0e9b
+      internalID: -2118946367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_45
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1394
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dee04798ca18643b7bd637fa1fbfa9
+      internalID: -1230562558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_46
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1394
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d332b5e8e6e5e134b8c3a12a6695930a
+      internalID: -1930151450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_47
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1394
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c934df6def4ff4ba1f5136505266b7
+      internalID: 1054927097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_48
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1394
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea7a657b457e3c45922738b6ee53149
+      internalID: 1772931502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1294
+        width: 578
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da104a511b79cf04a97a9ffe0212ae9a
+      internalID: 751485242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_50
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1294
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc798be07be0a7e4b9e1c2b8953cd70f
+      internalID: 46114922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1198
+        width: 578
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc8774a5175d4e4589da5134edcedab
+      internalID: 985986511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_52
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1198
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709300c1500a4e149ae4bf73a2965932
+      internalID: 1204185737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_53
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1207
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5acb501180d4d241937a852d13bd0c6
+      internalID: -1526729371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_54
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1207
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459c1ed0704d3424692a0b08f562cf89
+      internalID: 429862242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_55
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1207
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d6aa6eb4cb91c41a68c3327fe4559e
+      internalID: -210742124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_56
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1207
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89da796bcf3be7e42937062f8405f34e
+      internalID: -1863352346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_57
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1207
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a7cfd4643cba34b9ac54d5e7057516
+      internalID: -1729032455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_58
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1207
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944aac3b3219b8b45990a3b5360f374d
+      internalID: -790099220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_59
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1207
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f202faf2abecaa74093e361145d5fefa
+      internalID: -1411114171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_60
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1207
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c50306b07bb91a4689caa9de01b426c
+      internalID: 209994458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_61
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1207
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eec595e50aee9f4ba1013968414cce4
+      internalID: -1581412426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_62
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1210
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ed4198beddc494485639bda821cb4f
+      internalID: -1129179785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_63
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1207
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2c4049dbef77c42b16fd4423274e9d
+      internalID: 776492622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_64
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1207
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418b3af4b6f37434f8baf41629f0e002
+      internalID: 1554674222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1102
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5fdd3cd8fa8124a97cffd54bd03c6d
+      internalID: 540293847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_66
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1105
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4696c208a54c668479caf52d759fef9d
+      internalID: -1947402438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_67
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1102
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb98b7dcb6a1e7b47be8f4e085538126
+      internalID: -1318158501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_68
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1102
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f09e57dafd5f44190ba40e3d9f154e
+      internalID: 1567219792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_69
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1105
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f4470ffca5ac14f871e361468d0b68
+      internalID: -616107242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_70
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1102
+        width: 382
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf76425bad749c45a56f654803101e3
+      internalID: -1585994652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_71
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1105
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c3b8ce4ae78624b80daf6ad51a82c3
+      internalID: -1997136158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_72
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1102
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc07202c5493b74469f5d802a1e26b40
+      internalID: 1817980984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_73
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1102
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e204787f377824abe593f73acef260
+      internalID: 335643350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_74
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1105
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439bbc18f33be574192c6f75bf6a1d97
+      internalID: -2102514291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_75
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1102
+        width: 336
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b8dcb56ac13c74e8fe5e14a94f875b
+      internalID: 470289854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_76
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1114
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6d23aad3f49d645808a00ddb61b5f3
+      internalID: 1216193990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_77
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1114
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16706469c4e116449d6be0479ccc996
+      internalID: 1813330009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_78
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1114
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e275507056d6c04987cb2c7e0425638
+      internalID: 1316580702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_79
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1114
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c40071f59907846b6c9eaf8e85c6af
+      internalID: -647113271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_80
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1114
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a8e67b53040da4bbd2b02b272313ad
+      internalID: 1937937478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_81
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1114
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce23114526131cb46a6c6b1a0c12e2f1
+      internalID: 1123834080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_82
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1114
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24904e524fa1414d81995711f5b7cdf
+      internalID: 98712401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_83
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1114
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9044c506b55a349bb49167cb719eff
+      internalID: -671402939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_84
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 1114
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14920546b986354478a06a526fa29be0
+      internalID: -1331121549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_85
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 1102
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bd9b715ee43614eb2f4b4779d0c52e
+      internalID: 891145476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_86
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1102
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3357314be9c769e4594a250d01a3ef89
+      internalID: -1562675856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_87
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1006
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae7c4b9d11375f4f9214feb10f12d1d
+      internalID: -635887793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_88
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1006
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f2881205f7b074f947c61962c52f16
+      internalID: -1571965709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_89
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1006
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7290d743954bebb4987c07b45b18b920
+      internalID: 776001698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_90
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1006
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a7b8bc536f9224eb31e816d0aa23f7
+      internalID: 956584452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_91
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1006
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f3ca5e368111e479b38606c6c4fc97
+      internalID: 460210293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_92
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1006
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa53c51f8fb1524db6aff44ede71f66
+      internalID: 1999060779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_93
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1006
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c07e5f2af390b244af1f5685161cfd0
+      internalID: -1409670367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_94
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1006
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdcb05a9e9617d49bee7469363de953
+      internalID: -1437451534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_95
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1006
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133487e764bf3c94db2d857b7c048b9d
+      internalID: 983161501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_96
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1006
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb58cbbf70281654b8ec30b269daa5b9
+      internalID: -404555614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_97
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1006
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c11d21019783c49ac9ef2a84b4895a
+      internalID: 2108592355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_98
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1006
+        width: 669
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08283c690b9106429b0b2ecd67a8e70
+      internalID: -1206525315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_99
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1006
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7955942850ca54087f35479f6cd479
+      internalID: 987582790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_100
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1006
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c675acde23f5248b0e33610aabefa1
+      internalID: 273484752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_101
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1006
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f445780e8ceba74f900115f15302681
+      internalID: 1523349128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_102
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1006
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d8618513f419c449597a248657730d
+      internalID: 485117266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_103
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1006
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77933dfdbfe867b4aac6daa04d4f0beb
+      internalID: 1952031878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_104
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 1006
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f658ad17cd92e4e84a0963f6852a87
+      internalID: -1261155860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_105
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1006
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4e2d31d84b57a498a94cad9350e514
+      internalID: -160973859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_106
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1006
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21789407cfff2a44b5c0a4a1c005679
+      internalID: -1567444261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_107
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1006
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222e6821f39b6dc408223cd32260cda4
+      internalID: -222081937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_108
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1006
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea310cfaadfd84a4aaf97143d0d44d54
+      internalID: -2133957453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_109
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1006
+        width: 623
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d16918e124cdf4eada0f2391c94907
+      internalID: -1935234819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_110
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 910
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8823f6fa68f30d5428ccf8aa72d59c7b
+      internalID: -495377117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_111
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 910
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734409700188b3042bf2c4bbf9f73b93
+      internalID: -268565802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_112
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 910
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1813cb64c671c043b038470847f9fd9
+      internalID: -1805996438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_113
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 910
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f41ec41323fc54091e80cdf61169e2
+      internalID: 765832992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_114
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 910
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660ac9dbfa63f764194181a481647fc9
+      internalID: -1898576908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_115
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 910
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15157b51db86524d90c790f97b4c5e3
+      internalID: 1734604749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_116
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 910
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57ad428c975ddb40a33c8c7f04782f5
+      internalID: -128915262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_117
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 910
+        width: 668
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f8bc6740cb20c4f82dab08eae5231c
+      internalID: -2042062747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_118
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 910
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a497ecc9ad028a940aa46bff819a9722
+      internalID: 642675872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_119
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 910
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cf9b391681f4a45b5ac1c5f04359fa
+      internalID: -1755848875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_120
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 910
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48243fde52cbaa4baeb1faf6175f100
+      internalID: 608039659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_121
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 910
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804563f65b1694a45a661c916a65a96c
+      internalID: -1209857334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_122
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 910
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2aabfeb7a94c74c9637cabc7eb4db2
+      internalID: 504017766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_123
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 910
+        width: 142
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0864ccba95840ec4ebe2984c0d014ca5
+      internalID: -1940990545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_124
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 910
+        width: 529
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dffe64ee309154cbdfba614d41db35
+      internalID: -1350678485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_125
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 916
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285169282291c004195015b850cc0cc1
+      internalID: 543099056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_126
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 916
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd456fe8ffc87974f81c1d76ffe3d861
+      internalID: -1271866201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 815
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978355f2a32e48b409937ab9d9e25632
+      internalID: 1169926202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_128
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 815
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e85f194f2e23d49a4b1d88449b7da8
+      internalID: -532231790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_129
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 815
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528671df360dcca489133cab298adff2
+      internalID: -1074131448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_130
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 815
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8cde774b6aeab4facff4242e91ee4a
+      internalID: 1807991045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_131
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 815
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ff80faff3fca4418799b2b86bc75b8
+      internalID: 378769793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_132
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 815
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132dca5b0a3dc9a42a4c33eac99dd8eb
+      internalID: 1559346115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_133
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 815
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d5f014212f15d43ac23ef4857c85a2
+      internalID: -322536996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_134
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 815
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc46ece49df493a4ab9e68a772ad0634
+      internalID: -1252083793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_135
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 815
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605b7c025e51cc046b10748b40827193
+      internalID: -1274356159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_136
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 815
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171713ddae823f142954f39a48b0adf2
+      internalID: -522404447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_137
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 815
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6878979304e986445946a2e0a9f81af6
+      internalID: 1099472733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_138
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 815
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7421db61e964cb44cb9b164d44fd5882
+      internalID: -646459875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_139
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 815
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471fc3deaa1c33840a4e4b0d33e2256d
+      internalID: 533449837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_140
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 815
+        width: 766
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0002e0b33e94e5468957baa9b069da7
+      internalID: 108789629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_141
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 815
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd347d3d7a0a97544b73979ce5c15945
+      internalID: 418466894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_142
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 815
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b89f9902a4a5d4db34ac419a68b4af
+      internalID: 1566613037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_143
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 815
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571d7fd50d295b04a97113c74cb7dc36
+      internalID: -300953457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_144
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 815
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059bfd8389f557d43985bbd08efdf6f5
+      internalID: -359202473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_145
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 815
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24929d70d9ba2e4f84bd569d13b0e33
+      internalID: -1419455407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_146
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 815
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a239ae07e1301f44f82a2bc61a8ff7db
+      internalID: -1363687034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_147
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 815
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7ce16c41133fa46aba6ba242111155
+      internalID: 211671381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_148
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 815
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57ef6ef46c33a044868d0a85a18910f
+      internalID: 301178812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_149
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 815
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab00033becd00b4f9a7fb48fd20dc72
+      internalID: 365380047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_150
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 815
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93a7df50ce4cab499429abbc97f41f4
+      internalID: -217785904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_151
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 815
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce1cb1e97c1fb04f982e3f5a0c425a5
+      internalID: -180706636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_152
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 815
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191d7c033dac8554b83e7dc21ecda432
+      internalID: -1161012872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_153
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 815
+        width: 719
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28ebf05146f548439bf299a67f041e7
+      internalID: 1489088457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 719
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d743863278b81bb408730eb4018c295f
+      internalID: -1565100898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_155
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 719
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2a84f9c534ecc42a94644c5169ee0a
+      internalID: 1998029625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_156
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 719
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ff04257fbcaec49b95d1696688be2f
+      internalID: -222179785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_157
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 719
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f81d4fd9620e948a5f75b54258d582
+      internalID: 107360098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_158
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 719
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3031f9c74485c44bdd02d2d02b4c52
+      internalID: 2057048347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_159
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 719
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff2926402e18d144bb2568a9b829d96
+      internalID: 645611948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_160
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 719
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e96f404cddcf7a459c593535527b073
+      internalID: -1753214328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_161
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 719
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604d9d7f62995704aa0172e0217169db
+      internalID: 1497389160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_162
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 719
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc408d20d84860a4286ea26c35b4b9c8
+      internalID: -1683029555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_163
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 719
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00055ca51837edd4da17449d95eb397f
+      internalID: 1188143225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_164
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 719
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac4beb95538ee343829858bfb73d225
+      internalID: -1387571222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_165
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 719
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30b75ac13cf49e4698d21b0f31532ee
+      internalID: -607280417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_166
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 719
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16b216134ac0e74a82fb877a3f0abb6
+      internalID: -1069504536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_167
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 719
+        width: 766
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1ae402b3f4c4d42b058e3290a8a49e
+      internalID: -1175080050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_168
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 719
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44cef4e10476304e956360fa4044350
+      internalID: 943528815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_169
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 719
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef04b94f94b35947b9c033592ed2812
+      internalID: -23284630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_170
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 719
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afb73b031eee6f44a60f9885e0a07f3
+      internalID: 1489146887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_171
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 719
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89368fc180927ca4591a255e5dbd3e3f
+      internalID: 1128663412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_172
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 719
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff32b809380d3d4288cc4b4f2110a70
+      internalID: -1347350571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_173
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 719
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86620d277b5e9904d9198a3fcea4aec1
+      internalID: 882309114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_174
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 719
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb16c2fca2f23bf46a959c6b0b4021d4
+      internalID: 546591163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_175
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 719
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a87846daaaca0479b59d8052ac87ed
+      internalID: 608242083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_176
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 719
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a478390e095fe1d4ca60e9b89d6f79d8
+      internalID: -969237993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_177
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 719
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec28c6ecde829e48bac6e9e4539bd95
+      internalID: 86956315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_178
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 719
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbc3a24c8a3c3d41a3466ab7a041c15
+      internalID: -2119023319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_179
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 719
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead92f2ac0a2c144d943857b5d5033a8
+      internalID: -1554789866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_180
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 719
+        width: 719
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0388ac8895a3dc144b12e84d1fe7a84d
+      internalID: 609779676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_181
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 623
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612366f4d1d3af8468f75a6f8dd4b08f
+      internalID: -1483311883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_182
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 623
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2951b4aa464303e47bbea9fe0c790f0f
+      internalID: 84358989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_183
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 623
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bdc391e39e67d4f9d1be23d6b69df9
+      internalID: -903583602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_184
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 623
+        width: 478
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d591c6d59ef244ab8b2e72a8fb438c
+      internalID: -532760858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_185
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 623
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de45c6e1d1ecc546aaa791c4fd55bbe
+      internalID: 1924146480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_186
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 623
+        width: 140
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321dc39cf93cafc41a48ddf02e4b5366
+      internalID: -1320261401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_187
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 623
+        width: 336
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b77ccad1ef531a469b63e5c9efedd90
+      internalID: -168959042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_188
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 526
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7fd3ac574b33b4499641d0e7a347c8
+      internalID: -270292818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_189
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 526
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b98a584a276ee45b0c205ea562a0c7
+      internalID: 38858222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_190
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 526
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fae0ff609e58847ae6a4c9224c7731
+      internalID: 1870217358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_191
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 526
+        width: 93
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f56b0e7cae1634187c26f3ff9e2632
+      internalID: 1484027257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_192
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 526
+        width: 382
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff235d988335c04a82b245e37cc58e5
+      internalID: 944165434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_193
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 526
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d4e820bbe53fc4db5eb791a47a1fa9
+      internalID: 1231749323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_194
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 526
+        width: 93
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d3b328ccd07d24f8713234468dbdf0
+      internalID: -386161035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_195
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 526
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5884026a01a65fc41b80457ca03f0555
+      internalID: -1949973962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_196
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 526
+        width: 336
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e505bdb54612f408b34f4abe76519e
+      internalID: 40772773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_197
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 430
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216cfc2806fa1aa4d97bf1ae491e986d
+      internalID: -1925477369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_198
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 430
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af52caf061ee6534e944fe6962b32008
+      internalID: -1291446684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_199
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 430
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cbae2e8e444de4cbe6de3a7163c477
+      internalID: 2097156405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_200
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 430
+        width: 478
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d5c18321a4da6408727aa445ac888c
+      internalID: 1619434407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_201
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 430
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3cb17ab45a62d4c96412c453d6d93b
+      internalID: 1358593148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_202
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 430
+        width: 140
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5570337edc663fb47bf0626ff35d1d92
+      internalID: 334248608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_203
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 430
+        width: 336
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adf54d11fb6472499c3bf74ecf1904c
+      internalID: 1102135746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_204
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 448
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3cdb867866cc84c85a1a06038c1a43
+      internalID: -1639425349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_205
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 451
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b2a52989e966641b97e01b0cb982a1
+      internalID: 1472233459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_206
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 442
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af418c568d956e4183db37652f351bc
+      internalID: -301185426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_207
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 460
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f27bb4dfd56e7f4cbe66e1549447f7e
+      internalID: 1927407495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_208
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 455
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e54b0831eeb214fba869cabf119d3d
+      internalID: -1199583608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_209
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 448
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07773829cf8f97344822115a017cea7a
+      internalID: 1596257384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_210
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 448
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f80616ad712c004e9313c397171a1fb
+      internalID: -560435429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_211
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 451
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e95830434aaa644185d49101b240c7d
+      internalID: -1063640512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_212
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 448
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c9aeb6d38624f4992f6a449a00bd72
+      internalID: -210954858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_213
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 437
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381b4b2732c314e48bdd8b406f3719aa
+      internalID: 869947370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_214
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 437
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b765a71ea1eed4aab1e347ba10702f
+      internalID: 727124224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_215
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 437
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e303ce5b47f27364492ff382ba00c0b5
+      internalID: -1560271347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_216
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 442
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdb8ebcef95e6746a1a8c261416fef5
+      internalID: 1622586331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_217
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 448
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab19008050c542489f912fcee3d4338
+      internalID: -49639679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_218
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 446
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73df780b1854ef349a4452a9ca1cc6c7
+      internalID: 1782229443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_219
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 442
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fcf01e0960c1749be393e6a7e4a656
+      internalID: -986532663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_220
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 437
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904e42d71d09f994f934bc155fc7235d
+      internalID: 271287226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_221
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 437
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1061de934de6904a822a9b7022bd8d5
+      internalID: -1845714869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_222
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 437
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcad763a9150b794f99cafb4b0bf3e1b
+      internalID: -1915395386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_223
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 442
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89acca820e3c1364987df341faa6190b
+      internalID: 1981333522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_224
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 446
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd483c22fb90de48b68e52c6de97fa1
+      internalID: -1014740422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_225
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 430
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ac7f14c5cf2804b9b1ceb122a2829a
+      internalID: 1343503932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_226
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 448
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a6aa0d76f6b5c44b300469765cc177
+      internalID: -340392213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_227
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3436cb51405f665419be3f9b9fa6ce8c
+      internalID: 1138411111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_228
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 439
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79227afac2b5d54a97d458fea7a0bfe
+      internalID: -950166294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_229
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 437
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601f02f536c753a40b37d307b9afeb5a
+      internalID: -902343362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_230
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 434
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94f39777a4c22a41b79b94f07d77cec
+      internalID: -1289680261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_231
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 434
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92af11d6479108a469a07944dc544dff
+      internalID: 1599754610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_232
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 334
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b5c474a3119604497812810d84cfd5
+      internalID: 1247883805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_233
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 334
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee6572b7b48eb240895acfcbc3c6009
+      internalID: 1663941159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_234
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 334
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeb82d13faffed46bfa1610557f2fa6
+      internalID: 1280194785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_235
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 334
+        width: 286
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38547f8692dcefb4bae855fd48f8c1b1
+      internalID: 1003284349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_236
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 334
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b04d00aec969a4f90b37f82d423922
+      internalID: -1352242141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_237
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 334
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71a6e85ab8e82f41b3c1c897e63b355
+      internalID: -1197089822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_238
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 334
+        width: 240
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70c1007c0e9d494aa1f073dc71a3c4e
+      internalID: -1497309117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_239
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 238
+        width: 1151
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa38bed070cbf7645abb69110a4ff32b
+      internalID: 699197396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_240
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 142
+        width: 576
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7c10afc4b0f094fb74f492d88e03bd
+      internalID: 342866840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_241
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 163
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8e2c6e079ee154fa2915de0289d91c
+      internalID: 752819333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_242
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 47
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6850113f6a97449af54b728d0415b7
+      internalID: 565296882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_243
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780fa2b2e866cf24fb805c53ec8010a8
+      internalID: 1642566360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_244
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 47
+        width: 236
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e02d1001e8cd24c9314b058abcf426
+      internalID: 732793803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_245
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 47
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7ccac2d7a73d64687a7d58e20df9e8
+      internalID: -561903877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_246
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 47
+        width: 193
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15220fa5c8bd6c8439748097e8f08cc0
+      internalID: 81777656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Premade_Character_48x48_01_247
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 68
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d24217a97c2d1c4d9f0471d98a0010f
+      internalID: 997997785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Premade_Character_48x48_01_0: -927524988
+      Premade_Character_48x48_01_1: 1040852078
+      Premade_Character_48x48_01_10: -987625620
+      Premade_Character_48x48_01_100: 273484752
+      Premade_Character_48x48_01_101: 1523349128
+      Premade_Character_48x48_01_102: 485117266
+      Premade_Character_48x48_01_103: 1952031878
+      Premade_Character_48x48_01_104: -1261155860
+      Premade_Character_48x48_01_105: -160973859
+      Premade_Character_48x48_01_106: -1567444261
+      Premade_Character_48x48_01_107: -222081937
+      Premade_Character_48x48_01_108: -2133957453
+      Premade_Character_48x48_01_109: -1935234819
+      Premade_Character_48x48_01_11: -1857389822
+      Premade_Character_48x48_01_110: -495377117
+      Premade_Character_48x48_01_111: -268565802
+      Premade_Character_48x48_01_112: -1805996438
+      Premade_Character_48x48_01_113: 765832992
+      Premade_Character_48x48_01_114: -1898576908
+      Premade_Character_48x48_01_115: 1734604749
+      Premade_Character_48x48_01_116: -128915262
+      Premade_Character_48x48_01_117: -2042062747
+      Premade_Character_48x48_01_118: 642675872
+      Premade_Character_48x48_01_119: -1755848875
+      Premade_Character_48x48_01_12: 992705189
+      Premade_Character_48x48_01_120: 608039659
+      Premade_Character_48x48_01_121: -1209857334
+      Premade_Character_48x48_01_122: 504017766
+      Premade_Character_48x48_01_123: -1940990545
+      Premade_Character_48x48_01_124: -1350678485
+      Premade_Character_48x48_01_125: 543099056
+      Premade_Character_48x48_01_126: -1271866201
+      Premade_Character_48x48_01_127: 1169926202
+      Premade_Character_48x48_01_128: -532231790
+      Premade_Character_48x48_01_129: -1074131448
+      Premade_Character_48x48_01_13: 1599167874
+      Premade_Character_48x48_01_130: 1807991045
+      Premade_Character_48x48_01_131: 378769793
+      Premade_Character_48x48_01_132: 1559346115
+      Premade_Character_48x48_01_133: -322536996
+      Premade_Character_48x48_01_134: -1252083793
+      Premade_Character_48x48_01_135: -1274356159
+      Premade_Character_48x48_01_136: -522404447
+      Premade_Character_48x48_01_137: 1099472733
+      Premade_Character_48x48_01_138: -646459875
+      Premade_Character_48x48_01_139: 533449837
+      Premade_Character_48x48_01_14: 215044692
+      Premade_Character_48x48_01_140: 108789629
+      Premade_Character_48x48_01_141: 418466894
+      Premade_Character_48x48_01_142: 1566613037
+      Premade_Character_48x48_01_143: -300953457
+      Premade_Character_48x48_01_144: -359202473
+      Premade_Character_48x48_01_145: -1419455407
+      Premade_Character_48x48_01_146: -1363687034
+      Premade_Character_48x48_01_147: 211671381
+      Premade_Character_48x48_01_148: 301178812
+      Premade_Character_48x48_01_149: 365380047
+      Premade_Character_48x48_01_15: -261319384
+      Premade_Character_48x48_01_150: -217785904
+      Premade_Character_48x48_01_151: -180706636
+      Premade_Character_48x48_01_152: -1161012872
+      Premade_Character_48x48_01_153: 1489088457
+      Premade_Character_48x48_01_154: -1565100898
+      Premade_Character_48x48_01_155: 1998029625
+      Premade_Character_48x48_01_156: -222179785
+      Premade_Character_48x48_01_157: 107360098
+      Premade_Character_48x48_01_158: 2057048347
+      Premade_Character_48x48_01_159: 645611948
+      Premade_Character_48x48_01_16: 1608067860
+      Premade_Character_48x48_01_160: -1753214328
+      Premade_Character_48x48_01_161: 1497389160
+      Premade_Character_48x48_01_162: -1683029555
+      Premade_Character_48x48_01_163: 1188143225
+      Premade_Character_48x48_01_164: -1387571222
+      Premade_Character_48x48_01_165: -607280417
+      Premade_Character_48x48_01_166: -1069504536
+      Premade_Character_48x48_01_167: -1175080050
+      Premade_Character_48x48_01_168: 943528815
+      Premade_Character_48x48_01_169: -23284630
+      Premade_Character_48x48_01_17: 1972825347
+      Premade_Character_48x48_01_170: 1489146887
+      Premade_Character_48x48_01_171: 1128663412
+      Premade_Character_48x48_01_172: -1347350571
+      Premade_Character_48x48_01_173: 882309114
+      Premade_Character_48x48_01_174: 546591163
+      Premade_Character_48x48_01_175: 608242083
+      Premade_Character_48x48_01_176: -969237993
+      Premade_Character_48x48_01_177: 86956315
+      Premade_Character_48x48_01_178: -2119023319
+      Premade_Character_48x48_01_179: -1554789866
+      Premade_Character_48x48_01_18: -138425097
+      Premade_Character_48x48_01_180: 609779676
+      Premade_Character_48x48_01_181: -1483311883
+      Premade_Character_48x48_01_182: 84358989
+      Premade_Character_48x48_01_183: -903583602
+      Premade_Character_48x48_01_184: -532760858
+      Premade_Character_48x48_01_185: 1924146480
+      Premade_Character_48x48_01_186: -1320261401
+      Premade_Character_48x48_01_187: -168959042
+      Premade_Character_48x48_01_188: -270292818
+      Premade_Character_48x48_01_189: 38858222
+      Premade_Character_48x48_01_19: 1161629797
+      Premade_Character_48x48_01_190: 1870217358
+      Premade_Character_48x48_01_191: 1484027257
+      Premade_Character_48x48_01_192: 944165434
+      Premade_Character_48x48_01_193: 1231749323
+      Premade_Character_48x48_01_194: -386161035
+      Premade_Character_48x48_01_195: -1949973962
+      Premade_Character_48x48_01_196: 40772773
+      Premade_Character_48x48_01_197: -1925477369
+      Premade_Character_48x48_01_198: -1291446684
+      Premade_Character_48x48_01_199: 2097156405
+      Premade_Character_48x48_01_2: 1215905629
+      Premade_Character_48x48_01_20: -4355576
+      Premade_Character_48x48_01_200: 1619434407
+      Premade_Character_48x48_01_201: 1358593148
+      Premade_Character_48x48_01_202: 334248608
+      Premade_Character_48x48_01_203: 1102135746
+      Premade_Character_48x48_01_204: -1639425349
+      Premade_Character_48x48_01_205: 1472233459
+      Premade_Character_48x48_01_206: -301185426
+      Premade_Character_48x48_01_207: 1927407495
+      Premade_Character_48x48_01_208: -1199583608
+      Premade_Character_48x48_01_209: 1596257384
+      Premade_Character_48x48_01_21: -932575729
+      Premade_Character_48x48_01_210: -560435429
+      Premade_Character_48x48_01_211: -1063640512
+      Premade_Character_48x48_01_212: -210954858
+      Premade_Character_48x48_01_213: 869947370
+      Premade_Character_48x48_01_214: 727124224
+      Premade_Character_48x48_01_215: -1560271347
+      Premade_Character_48x48_01_216: 1622586331
+      Premade_Character_48x48_01_217: -49639679
+      Premade_Character_48x48_01_218: 1782229443
+      Premade_Character_48x48_01_219: -986532663
+      Premade_Character_48x48_01_22: -17897245
+      Premade_Character_48x48_01_220: 271287226
+      Premade_Character_48x48_01_221: -1845714869
+      Premade_Character_48x48_01_222: -1915395386
+      Premade_Character_48x48_01_223: 1981333522
+      Premade_Character_48x48_01_224: -1014740422
+      Premade_Character_48x48_01_225: 1343503932
+      Premade_Character_48x48_01_226: -340392213
+      Premade_Character_48x48_01_227: 1138411111
+      Premade_Character_48x48_01_228: -950166294
+      Premade_Character_48x48_01_229: -902343362
+      Premade_Character_48x48_01_23: 1142256658
+      Premade_Character_48x48_01_230: -1289680261
+      Premade_Character_48x48_01_231: 1599754610
+      Premade_Character_48x48_01_232: 1247883805
+      Premade_Character_48x48_01_233: 1663941159
+      Premade_Character_48x48_01_234: 1280194785
+      Premade_Character_48x48_01_235: 1003284349
+      Premade_Character_48x48_01_236: -1352242141
+      Premade_Character_48x48_01_237: -1197089822
+      Premade_Character_48x48_01_238: -1497309117
+      Premade_Character_48x48_01_239: 699197396
+      Premade_Character_48x48_01_24: 663979376
+      Premade_Character_48x48_01_240: 342866840
+      Premade_Character_48x48_01_241: 752819333
+      Premade_Character_48x48_01_242: 565296882
+      Premade_Character_48x48_01_243: 1642566360
+      Premade_Character_48x48_01_244: 732793803
+      Premade_Character_48x48_01_245: -561903877
+      Premade_Character_48x48_01_246: 81777656
+      Premade_Character_48x48_01_247: 997997785
+      Premade_Character_48x48_01_25: 888281946
+      Premade_Character_48x48_01_26: -259806719
+      Premade_Character_48x48_01_27: 1639975604
+      Premade_Character_48x48_01_28: -1941587087
+      Premade_Character_48x48_01_29: -1734339003
+      Premade_Character_48x48_01_3: -567979014
+      Premade_Character_48x48_01_30: -1836023383
+      Premade_Character_48x48_01_31: -570506695
+      Premade_Character_48x48_01_32: -420117986
+      Premade_Character_48x48_01_33: -912178636
+      Premade_Character_48x48_01_34: 1476487927
+      Premade_Character_48x48_01_35: -272490898
+      Premade_Character_48x48_01_36: 1788158090
+      Premade_Character_48x48_01_37: 371339955
+      Premade_Character_48x48_01_38: -1767845631
+      Premade_Character_48x48_01_39: -858713964
+      Premade_Character_48x48_01_4: -1683769739
+      Premade_Character_48x48_01_40: 1996385292
+      Premade_Character_48x48_01_41: -572849520
+      Premade_Character_48x48_01_42: -935817468
+      Premade_Character_48x48_01_43: 1869648421
+      Premade_Character_48x48_01_44: -2118946367
+      Premade_Character_48x48_01_45: -1230562558
+      Premade_Character_48x48_01_46: -1930151450
+      Premade_Character_48x48_01_47: 1054927097
+      Premade_Character_48x48_01_48: 1772931502
+      Premade_Character_48x48_01_49: 751485242
+      Premade_Character_48x48_01_5: -450078787
+      Premade_Character_48x48_01_50: 46114922
+      Premade_Character_48x48_01_51: 985986511
+      Premade_Character_48x48_01_52: 1204185737
+      Premade_Character_48x48_01_53: -1526729371
+      Premade_Character_48x48_01_54: 429862242
+      Premade_Character_48x48_01_55: -210742124
+      Premade_Character_48x48_01_56: -1863352346
+      Premade_Character_48x48_01_57: -1729032455
+      Premade_Character_48x48_01_58: -790099220
+      Premade_Character_48x48_01_59: -1411114171
+      Premade_Character_48x48_01_6: 813444454
+      Premade_Character_48x48_01_60: 209994458
+      Premade_Character_48x48_01_61: -1581412426
+      Premade_Character_48x48_01_62: -1129179785
+      Premade_Character_48x48_01_63: 776492622
+      Premade_Character_48x48_01_64: 1554674222
+      Premade_Character_48x48_01_65: 540293847
+      Premade_Character_48x48_01_66: -1947402438
+      Premade_Character_48x48_01_67: -1318158501
+      Premade_Character_48x48_01_68: 1567219792
+      Premade_Character_48x48_01_69: -616107242
+      Premade_Character_48x48_01_7: 1667019972
+      Premade_Character_48x48_01_70: -1585994652
+      Premade_Character_48x48_01_71: -1997136158
+      Premade_Character_48x48_01_72: 1817980984
+      Premade_Character_48x48_01_73: 335643350
+      Premade_Character_48x48_01_74: -2102514291
+      Premade_Character_48x48_01_75: 470289854
+      Premade_Character_48x48_01_76: 1216193990
+      Premade_Character_48x48_01_77: 1813330009
+      Premade_Character_48x48_01_78: 1316580702
+      Premade_Character_48x48_01_79: -647113271
+      Premade_Character_48x48_01_8: 609649274
+      Premade_Character_48x48_01_80: 1937937478
+      Premade_Character_48x48_01_81: 1123834080
+      Premade_Character_48x48_01_82: 98712401
+      Premade_Character_48x48_01_83: -671402939
+      Premade_Character_48x48_01_84: -1331121549
+      Premade_Character_48x48_01_85: 891145476
+      Premade_Character_48x48_01_86: -1562675856
+      Premade_Character_48x48_01_87: -635887793
+      Premade_Character_48x48_01_88: -1571965709
+      Premade_Character_48x48_01_89: 776001698
+      Premade_Character_48x48_01_9: 1906425432
+      Premade_Character_48x48_01_90: 956584452
+      Premade_Character_48x48_01_91: 460210293
+      Premade_Character_48x48_01_92: 1999060779
+      Premade_Character_48x48_01_93: -1409670367
+      Premade_Character_48x48_01_94: -1437451534
+      Premade_Character_48x48_01_95: 983161501
+      Premade_Character_48x48_01_96: -404555614
+      Premade_Character_48x48_01_97: 2108592355
+      Premade_Character_48x48_01_98: -1206525315
+      Premade_Character_48x48_01_99: 987582790
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

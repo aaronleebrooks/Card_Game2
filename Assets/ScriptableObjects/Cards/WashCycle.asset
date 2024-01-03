@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a63c47516c00c42940bfaf1668b6fc, type: 3}
+  m_Name: WashCycle
+  m_EditorClassIdentifier: 
+  typeId: 100017
+  cardModel: {fileID: 21300000, guid: 72f42d8e0a6c52642a7212365024bba7, type: 3}
+  cost: 1
+  power: 1
+  title: Wash Cycle
+  description: Draw 2 cards, Discard 2 cards
+  flavor: A new beginning
+  background: {fileID: 21300000, guid: ad7d2383d0933b14fa535c362c7eeb08, type: 3}
