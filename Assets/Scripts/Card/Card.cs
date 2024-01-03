@@ -84,6 +84,16 @@ public class Card : MonoBehaviour
         return position;
     }
 
+    public Sprite GetCardSprite()
+    {
+        Debug.Log($"GetCardSprite called, current sprite is: {cardData.title}");
+        if(cardData is SO_CreatureCard creatureCardData)
+        {
+            return creatureCardData.creatureModel;
+        }
+        return null;
+    }
+
     private void SetPosition(Position value)
     {
         position = value;

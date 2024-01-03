@@ -13,13 +13,14 @@ public class PlayerController : MonoBehaviour
     public UnityEvent PlayerTurnMain = new UnityEvent();
     public UnityEvent PlayerTurnEnded = new UnityEvent();
     public UnityEvent<Card> PlayerSelectedCardCanBeDiscarded = new UnityEvent<Card>();
-    public UnityEvent<Card> PlayerSelectedCardCanBePlayed = new UnityEvent<Card>();
+    public UnityEvent PlayerSelectedCardCanBePlayed = new UnityEvent();
     public UnityEvent<Card> PlayerDiscardedCardForMana = new UnityEvent<Card>();
     public UnityEvent<Card> PlayerDiscardedCard = new UnityEvent<Card>();
     public UnityEvent<Card> PlayerDrewCard = new UnityEvent<Card>();
     public UnityEvent<Card> PlayerSentCardToDrawPile = new UnityEvent<Card>();
     public UnityEvent PlayerDrewHand = new UnityEvent();
     public UnityEvent ResetSelectionHighlights = new UnityEvent();
+    public UnityEvent<int> ManaValueChanged = new UnityEvent<int>();
     private Card selectedCardInHand;
 
     private void Start()
@@ -30,7 +31,7 @@ public class PlayerController : MonoBehaviour
         PlayerTurnMain.AddListener(() => Debug.Log("PlayerTurnMain triggered"));
         PlayerTurnEnded.AddListener(() => Debug.Log("PlayerTurnEnded triggered"));
         PlayerSelectedCardCanBeDiscarded.AddListener((card) => Debug.Log($"PlayerSelectedCardCanBeDiscarded triggered with card {card.name}"));
-        PlayerSelectedCardCanBePlayed.AddListener((card) => Debug.Log($"PlayerSelectedCardCanBePlayed triggered with card {card.name}"));
+        PlayerSelectedCardCanBePlayed.AddListener(() => Debug.Log($"PlayerSelectedCardCanBePlayed triggered"));
         PlayerDiscardedCardForMana.AddListener((card) => Debug.Log($"PlayerDiscardedCardForMana triggered with card {card.name}"));
         ResetSelectionHighlights.AddListener(() => Debug.Log("ResetSelectionHighlights triggered"));
     }
@@ -96,7 +97,7 @@ public class PlayerController : MonoBehaviour
         PlayerSelectedCardCanBeDiscarded.Invoke(selectedCardInHand);
         if (selectedCardInHand.cost <= mana)
         {
-            PlayerSelectedCardCanBePlayed.Invoke(selectedCardInHand);
+            PlayerSelectedCardCanBePlayed.Invoke();
         }
     }
 
@@ -118,5 +119,10 @@ public class PlayerController : MonoBehaviour
     public void DoDrawCard(Card card)
     {
         PlayerDrewCard.Invoke(card);
+    }
+
+    public void SetManaValue(int value)
+    {
+        mana = value;
     }
 }
