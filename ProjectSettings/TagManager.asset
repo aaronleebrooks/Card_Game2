@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 1896844367
     locked: 0
+  - name: Modal Background
+    uniqueID: 46269167
+    locked: 0
   - name: BattleUI
     uniqueID: 4211422329
     locked: 0
@@ -56,12 +59,15 @@ TagManager:
   - name: Cards
     uniqueID: 3115516127
     locked: 0
+  - name: Playfield
+    uniqueID: 1208629749
+    locked: 0
+  - name: Store
+    uniqueID: 2717335299
+    locked: 0
   - name: CardDetailUI
     uniqueID: 1265517945
     locked: 0
   - name: MenuUI
     uniqueID: 3169836273
-    locked: 0
-  - name: Playfield
-    uniqueID: 1208629749
     locked: 0
