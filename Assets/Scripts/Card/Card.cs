@@ -165,4 +165,10 @@ public class Card : MonoBehaviour
         Debug.Log($"DoSetPower called with value: {value}");
         power = value;
     }
+
+    public void HideCard()
+    {
+        Debug.Log("HideCard called");
+        gameObject.SetActive(false);
+    }
 }

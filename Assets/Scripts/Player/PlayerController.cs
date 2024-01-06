@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public UnityEvent<Card> PlayerDiscardedCardForMana = new UnityEvent<Card>();
     public UnityEvent<Card> PlayerDiscardedCard = new UnityEvent<Card>();
     public UnityEvent<Card> PlayerDrewCard = new UnityEvent<Card>();
+    public UnityEvent<Card> PlayerPlayedCreatureCard = new UnityEvent<Card>();
     public UnityEvent<Card> PlayerSentCardToDrawPile = new UnityEvent<Card>();
     public UnityEvent PlayerDrewHand = new UnityEvent();
     public UnityEvent ResetSelectionHighlights = new UnityEvent();
@@ -124,5 +125,24 @@ public class PlayerController : MonoBehaviour
     public void SetManaValue(int value)
     {
         mana = value;
+    }
+
+    public void DoPlayCreatureCard(PlayfieldPosition position)
+    {
+        if(selectedCardInHand == null)
+        {
+            return;
+        }
+        if(mana < selectedCardInHand.cost)
+        {
+            return;
+        }
+        if(!(selectedCardInHand.cardData is SO_CreatureCard))
+        {
+            return;
+        }
+        position.DoCreatureCardPlayed(selectedCardInHand);
+        PlayerPlayedCreatureCard.Invoke(selectedCardInHand);
+        DoDeselectCardInHand(selectedCardInHand);
     }
 }
