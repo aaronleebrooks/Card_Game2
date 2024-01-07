@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Rendering;
 
 public enum TargetType {
     Self,
@@ -57,6 +58,12 @@ public class Card : MonoBehaviour
     {
         Debug.Log($"DoSetPosition called with value: {value}");
         SetPosition(value);
+    }
+
+    public void SetParent(Transform value)
+    {
+        Debug.Log($"SetParent called with value: {value}");
+        transform.SetParent(value);
     }
 
     public void DoFlipCard(bool value)
@@ -168,7 +175,41 @@ public class Card : MonoBehaviour
 
     public void HideCard()
     {
-        Debug.Log("HideCard called");
+        Debug.Log("HideCard casalled");
         gameObject.SetActive(false);
+    }
+
+    public void ToggleCardHidden(bool value)
+    {
+        Debug.Log($"ToggleCardHidden called with value: {value}");
+        gameObject.SetActive(!value);
+    }
+
+    public void SetSortingLayer(string value)
+    {
+        Debug.Log($"SetSortingLayer called with value: {value}");
+        SortingGroup sortingGroup = GetComponent<SortingGroup>();
+        if (sortingGroup != null)
+        {
+            sortingGroup.sortingLayerName = value;
+        }
+        else
+        {
+            Debug.LogError("No SortingGroup component found.");
+        }
+    }
+
+    public void SetSortingOrder(int value)
+    {
+        Debug.Log($"SetSortingOrder called with value: {value}");
+        SortingGroup sortingGroup = GetComponent<SortingGroup>();
+        if (sortingGroup != null)
+        {
+            sortingGroup.sortingOrder = value;
+        }
+        else
+        {
+            Debug.LogError("No SortingGroup component found.");
+        }
     }
 }

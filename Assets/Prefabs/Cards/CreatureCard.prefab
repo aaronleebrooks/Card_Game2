@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1731170479528918806}
   - component: {fileID: 4413190464534343450}
   - component: {fileID: 9072724967167795954}
+  - component: {fileID: 7086423103273493491}
   m_Layer: 0
   m_Name: CreatureCard
   m_TagString: Untagged
@@ -370,7 +371,7 @@ SortingGroup:
   m_GameObject: {fileID: 1731170479528918890}
   m_Enabled: 1
   m_SortingLayerID: -1179451169
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 2
 --- !u!114 &9072724967167795954
 MonoBehaviour:
@@ -390,6 +391,26 @@ MonoBehaviour:
   OnCardMoveEnd:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7086423103273493491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731170479528918890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 1
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1731170479751922357
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +662,7 @@ SortingGroup:
   m_GameObject: {fileID: 1731170481289468689}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &1731170481289468700
 MonoBehaviour:
@@ -745,7 +766,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -830,7 +851,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 4f252b62500e5404990000ae8944938c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1039,7 +1060,7 @@ SortingGroup:
   m_GameObject: {fileID: 7195218703970687602}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &7195218703970687497
 MonoBehaviour:
@@ -1236,7 +1257,7 @@ SortingGroup:
   m_GameObject: {fileID: 7195218704348811691}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &7195218704348811694
 MonoBehaviour:
@@ -1540,7 +1561,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 8
   m_Sprite: {fileID: 21300000, guid: 89832ac993ab7a543b39ebcbac91f394, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1715,7 +1736,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 51009aaf24309e94b98f554a2c611817, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1818,7 +1839,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 0c7ff5baaa26bb2449d1f78575568ee1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2027,7 +2048,7 @@ SortingGroup:
   m_GameObject: {fileID: 7195218705264230950}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &7195218705264230973
 MonoBehaviour:
@@ -2224,7 +2245,7 @@ SortingGroup:
   m_GameObject: {fileID: 7195218705328210427}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &7195218705328210430
 MonoBehaviour:
@@ -2421,7 +2442,7 @@ SortingGroup:
   m_GameObject: {fileID: 7195218705558292889}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &7195218705558292892
 MonoBehaviour:

@@ -46,6 +46,11 @@ public class CardMovementController : MonoBehaviour
         float startTime = Time.time; // Use Time.time instead of Time.deltaTime
         float duration = .5f;
         float closeEnoughDistance = 0.1f;
+        RectTransform rectTransform = card.GetComponent<RectTransform>();
+        rectTransform.pivot = new Vector2(0.5f, 0.5f);
+
+        // Set position to center of parent
+        rectTransform.anchoredPosition = Vector2.zero;
 
         while (Vector3.Distance(card.transform.position, targetPosition) > closeEnoughDistance)
         {

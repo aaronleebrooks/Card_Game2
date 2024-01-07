@@ -9,7 +9,8 @@ public class BattleController : MonoBehaviour
     public SO_Battle battle;
     public PlayerController player;
     public PlayerController enemy;
-    public UnityEvent GameStartEvent = new UnityEvent();
+    public UnityEvent<SO_Deck> InitStoreEvent = new UnityEvent<SO_Deck>();
+    public UnityEvent InitPlayerEvent = new UnityEvent();
     public UnityEvent PlayerTurnStartEvent = new UnityEvent();
     public UnityEvent EnemyTurnStartEvent = new UnityEvent();
     public UnityEvent PlayerTurnMainEvent = new UnityEvent();
@@ -38,8 +39,8 @@ public class BattleController : MonoBehaviour
     private void InitializeBattle()
     {
         Debug.Log("Battle initialized");
-        GameStartEvent.Invoke();
-        PlayerTurnStartEvent.Invoke();
+        InitPlayerEvent.Invoke();
+        InitStoreEvent.Invoke(battle.storeDeck);
     }
 
     public void TriggerNextTurnPhase()

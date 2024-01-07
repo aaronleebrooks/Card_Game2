@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1731170479528918806}
   - component: {fileID: 4305429289470901582}
   - component: {fileID: 6700576078108545891}
+  - component: {fileID: 7093365362861127635}
   m_Layer: 0
   m_Name: SpellCard
   m_TagString: Untagged
@@ -41,7 +42,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -5.186}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.56, y: 0.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1731170479528918807
@@ -332,7 +333,7 @@ SortingGroup:
   m_GameObject: {fileID: 1731170479528918890}
   m_Enabled: 1
   m_SortingLayerID: -1179451169
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 2
 --- !u!114 &6700576078108545891
 MonoBehaviour:
@@ -352,6 +353,26 @@ MonoBehaviour:
   OnCardMoveEnd:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7093365362861127635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731170479528918890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 1
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &1731170479700207980
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,7 +556,7 @@ SortingGroup:
   m_GameObject: {fileID: 1731170479700207980}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &1731170479700207895
 MonoBehaviour:
@@ -937,7 +958,7 @@ SortingGroup:
   m_GameObject: {fileID: 1731170480145179317}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &1731170480145179312
 MonoBehaviour:
@@ -1023,7 +1044,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 8
   m_Sprite: {fileID: 21300000, guid: 89832ac993ab7a543b39ebcbac91f394, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1121,7 +1142,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: dc728e9cb4809214987c831d6276063f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1301,7 +1322,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 72f42d8e0a6c52642a7212365024bba7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1510,7 +1531,7 @@ SortingGroup:
   m_GameObject: {fileID: 1731170481102549304}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &1731170481102549283
 MonoBehaviour:
@@ -1707,7 +1728,7 @@ SortingGroup:
   m_GameObject: {fileID: 1731170481158140645}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &1731170481158140640
 MonoBehaviour:
@@ -1904,7 +1925,7 @@ SortingGroup:
   m_GameObject: {fileID: 1731170481329633927}
   m_Enabled: 1
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
 --- !u!114 &1731170481329633922
 MonoBehaviour:
@@ -1990,7 +2011,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1367638573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 8
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
