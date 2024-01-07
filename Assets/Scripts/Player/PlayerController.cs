@@ -125,6 +125,7 @@ public class PlayerController : MonoBehaviour
     public void SetManaValue(int value)
     {
         mana = value;
+        ManaValueChanged.Invoke(mana);
     }
 
     public void DoPlayCreatureCard(PlayfieldPosition position)

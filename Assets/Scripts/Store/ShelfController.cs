@@ -10,7 +10,7 @@ public class ShelfController : MonoBehaviour
     public int typeId;
     private int stock;
     private int price;
-    public GameObject BuyButton;
+    public Button BuyButton;
     public GameObject SoldOutSign;
     public CardPositionController cardPositionController;
     public UnityEvent<int> StockChangedEvent = new UnityEvent<int>();
@@ -44,6 +44,7 @@ public class ShelfController : MonoBehaviour
         price = card.cost;
         card.SetSortingLayer("Store");
         card.SetSortingOrder(10);
+        BuyButton.interactable = false;
         SoldOutSign.SetActive(false);
         StockChangedEvent.Invoke(stock);
         card.SetParent(cardPositionController.transform);
@@ -73,5 +74,25 @@ public class ShelfController : MonoBehaviour
     {
         Debug.Log($"SetTypeId: Setting typeId to {value}");
         typeId = value;
+    }
+
+    public void CheckIfCanBuy(int mana)
+    {
+        Debug.Log($"CheckIfCanBuy: Checking if can buy, mana is {mana}, price is {price}");
+        if (mana >= price && stock > 0)
+        {
+            Debug.Log("CheckIfCanBuy: Can buy, setting buy button enabled");
+            SetBuyEnabled(true);
+        }
+        else
+        {
+            Debug.Log("CheckIfCanBuy: Cannot buy, setting buy button disabled");
+            SetBuyEnabled(false);
+        }
+    }
+    public void SetBuyEnabled(bool value)
+    {
+        Debug.Log($"SetBuyEnabled: Setting buy button enabled to {value}");
+        BuyButton.interactable = value;
     }
 }

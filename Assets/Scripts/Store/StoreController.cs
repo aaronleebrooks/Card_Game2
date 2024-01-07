@@ -18,7 +18,6 @@ public class StoreController : MonoBehaviour
     public GameObject creatureCardPrefab;
     public GameObject spellCardPrefab;
     public GameObject shelfPrefab;
-
     public GameObject shelvesGrid;
     
     public void InitializeStore(SO_Deck deck)
@@ -116,6 +115,15 @@ public class StoreController : MonoBehaviour
     {
         Debug.Log($"ToggleStoreModal: Toggling store modal to {value}");
         StoreModalToggledEvent.Invoke(value);
+    }
 
-    } 
+    public void CheckIfCanBuy(int mana)
+    {
+        Debug.Log($"CheckIfCanBuy: Checking if can buy with mana {mana}");
+        foreach (ShelfController shelf in shelves)
+        {
+            shelf.CheckIfCanBuy(mana);
+        }
+    }
+
 }

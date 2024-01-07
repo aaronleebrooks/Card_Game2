@@ -89,7 +89,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895256955218463475}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shelfCard: {fileID: 0}
   typeId: 0
-  BuyButton: {fileID: 895256956062183324}
+  BuyButton: {fileID: 895256956062183319}
   SoldOutSign: {fileID: 895256956384534072}
   cardPositionController: {fileID: 895256955431656656}
   StockChangedEvent:
@@ -549,7 +549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8938f154e569e464a9c81e51a94829c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c83c6a79e51244344ae33509226b93df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

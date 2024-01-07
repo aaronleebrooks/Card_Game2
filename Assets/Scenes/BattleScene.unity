@@ -35964,8 +35964,28 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 193619990}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CheckIfCanBuy
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -36052,6 +36072,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1842723945}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StoreController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerSelectedCardCanBeDiscarded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 197253186}
@@ -36066,6 +36090,10 @@ PrefabInstance:
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: HandController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
