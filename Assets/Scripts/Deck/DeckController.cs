@@ -46,4 +46,9 @@ public class DeckController : MonoBehaviour
     {
         InitializeCard(cardData);
     }
+
+    public void AddCardToDeck(Card card)
+    {
+        deckCards.Add(card);
+    }
 }

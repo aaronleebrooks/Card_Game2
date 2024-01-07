@@ -14,6 +14,7 @@ public class ShelfController : MonoBehaviour
     public GameObject SoldOutSign;
     public CardPositionController cardPositionController;
     public UnityEvent<int> StockChangedEvent = new UnityEvent<int>();
+    public UnityEvent<Card> CardBoughtEvent = new UnityEvent<Card>();
     public bool isMasked = true;
     public Mask mask;
 
@@ -67,6 +68,11 @@ public class ShelfController : MonoBehaviour
     public void DoBuy()
     {
         Debug.Log("DoBuy: Buying item, reducing stock by 1");
+        //make a copy of the shelf card
+        Card card = Instantiate(shelfCard);
+        //set scale to 350
+        card.transform.localScale = new Vector3(350, 350, 1);
+        CardBoughtEvent.Invoke(card);
         ModifyStock(-1);
     }
 

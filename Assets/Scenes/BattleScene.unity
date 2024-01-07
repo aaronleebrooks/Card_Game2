@@ -980,6 +980,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  CardBoughtEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1893877453}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: DoBuyCard
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   storeModal: {fileID: 573488833}
   creatureCardPrefab: {fileID: 1731170479528918890, guid: 01cee6d86cb92ca43bfff9ccf04624bb, type: 3}
   spellCardPrefab: {fileID: 1731170479528918890, guid: e1aee8aeb0c6b6a48b46c65fe83f8d9d, type: 3}
@@ -18867,6 +18882,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1108535912 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 997337667393153595, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+  m_PrefabInstance: {fileID: 997337668432363603}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9625c30a0eaee72468eee330579ee62d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1125103046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21249,6 +21275,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8826448654321613650, guid: bb231b1587044fd48b4c6015ee75f725, type: 3}
   m_PrefabInstance: {fileID: 8826448652919345902}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1437866800 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1437866800, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+  m_PrefabInstance: {fileID: 997337668432363603}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5af51944e2978a343b0241316c0442c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1439603694
 GameObject:
   m_ObjectHideFlags: 0
@@ -34929,6 +34966,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1819225578 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 997337667834752441, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+  m_PrefabInstance: {fileID: 997337668432363603}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6963e6a8b1bce541a8a882d47ddf950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1842723941
 GameObject:
   m_ObjectHideFlags: 0
@@ -35968,6 +36016,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -35976,16 +36028,80 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 193619990}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1437866800}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1819225578}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1108535912}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 483325281}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CheckIfCanBuy
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DoBuy
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AddCardToDeck
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: DoDiscardCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: DoLoseManaFromCard
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -36076,6 +36192,22 @@ PrefabInstance:
       value: StoreController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BuyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: DeckController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: DiscardController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: ManaController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerSelectedCardCanBeDiscarded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 197253186}
@@ -36096,6 +36228,22 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
@@ -36105,7 +36253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495135, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495135, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: m_LocalPosition.x

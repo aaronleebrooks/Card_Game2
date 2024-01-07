@@ -14,6 +14,7 @@ public class StoreController : MonoBehaviour
     public List<ShelfController> shelves = new List<ShelfController>();
 
     public UnityEvent<bool> StoreModalToggledEvent = new UnityEvent<bool>();
+    public UnityEvent<Card> CardBoughtEvent = new UnityEvent<Card>();
     public GameObject storeModal;
     public GameObject creatureCardPrefab;
     public GameObject spellCardPrefab;
@@ -101,14 +102,16 @@ public class StoreController : MonoBehaviour
 
         shelfController.InitializeShelfCard(InitializeCard(cardData), defaultStock);
         shelfController.SetTypeId(cardData.typeId);
+        shelfController.CardBoughtEvent.AddListener((Card card) => DoBuyCard(card));
         StoreModalToggledEvent.AddListener((bool value) => shelfController.ToggleMask(value));
         InitializeCardStock(cardData);
         shelves.Add(shelfController);
     }
 
-    public void DoBuyCard()
+    public void DoBuyCard(Card card)
     {
-        Debug.Log("DoBuyCard: Buying card");
+        Debug.Log($"DoBuyCard: Buying card {card.name}");
+        CardBoughtEvent.Invoke(card);
     }
 
     public void ToggleStoreModal(bool value)
