@@ -16,14 +16,14 @@ public class DiscardController : MonoBehaviour
     {
         Debug.Log($"DoDiscardCard called with card: {card.name}");
         cardsInDiscardPile.Add(card);
+        card.GetComponent<BoxCollider2D>().enabled = false;
         MoveDiscardCardToDiscardPile.Invoke(card);
     }
 
     public void DoDiscardCards(List<Card> cards)
     {
         Debug.Log($"DoDiscardCards called with {cards.Count} cards");
-        cardsInDiscardPile.AddRange(cards);
-        cards.ForEach(card => MoveDiscardCardToDiscardPile.Invoke(card));
+        cards.ForEach(card => DoDiscardCard(card));
     }
     
     public void DoRemoveCardFromDiscardPile(Card card)

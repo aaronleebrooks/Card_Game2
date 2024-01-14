@@ -17,13 +17,13 @@ public class DrawController : MonoBehaviour
     public void DoAddCardToDrawPile(Card card)
     {
         cardsInDrawPile.Add(card);
+        card.DoFlipCard(false);
         MoveDrawCardToDrawPile.Invoke(card);
     }
 
     public void DoAddCardsToDrawPile(List<Card> cards)
     {
-        cardsInDrawPile.AddRange(cards);
-        cards.ForEach(card => MoveDrawCardToDrawPile.Invoke(card));
+        cards.ForEach(card => DoAddCardToDrawPile(card));
     }
 
     public void StartShuffleDrawPile()

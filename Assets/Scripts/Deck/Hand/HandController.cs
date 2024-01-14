@@ -7,6 +7,7 @@ using System;
 public class HandController : MonoBehaviour
 {
     private List<CardPositionController> handLocations = new List<CardPositionController>();
+    public UnityEvent<List<Card>> DiscardAllCards = new UnityEvent<List<Card>>();
     [SerializeField]
     private List<Card> cardsInHand = new List<Card>();
     public int maxHandSize = 8;
@@ -34,7 +35,7 @@ public class HandController : MonoBehaviour
     public void DoDiscardAllCards()
     {
         Debug.Log("DoDiscardAllCards called");
-        cardsInHand.ForEach(card => DoCardRemove(card));
+        DiscardAllCards.Invoke(cardsInHand);
         cardsInHand.Clear();
     }
 

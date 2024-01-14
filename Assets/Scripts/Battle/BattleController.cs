@@ -27,7 +27,7 @@ public class BattleController : MonoBehaviour
         MainEnemy,
         EndEnemy,
     }
-
+    [SerializeField]
     private TurnPhase currentTurnPhase;
 
     private void Start()
