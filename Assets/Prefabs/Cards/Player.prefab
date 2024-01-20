@@ -194,7 +194,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1208629749
-  m_SortingLayer: 8
+  m_SortingLayer: 7
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 6d2a9d74ec694f840bb66d0a3d4e2861, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0606fc240fc3f9d48a4d86c84edf0f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 5
   position: 0
 --- !u!1 &997337667405024578
 GameObject:
@@ -642,19 +642,7 @@ MonoBehaviour:
         m_CallState: 2
   PlayerCardInitialized:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 997337667415954300}
-        m_TargetAssemblyTypeName: DrawController, Assembly-CSharp
-        m_MethodName: StartShuffleDrawPile
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   PlayerTurnStarted:
     m_PersistentCalls:
       m_Calls:
@@ -682,12 +670,48 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: BattleController, Assembly-CSharp
+        m_MethodName: TriggerNextTurnPhase
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   PlayerTurnMain:
     m_PersistentCalls:
       m_Calls: []
   PlayerTurnEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 997337668369983817}
+        m_TargetAssemblyTypeName: HandController, Assembly-CSharp
+        m_MethodName: DoDiscardAllCards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 997337667415954300}
+        m_TargetAssemblyTypeName: DrawController, Assembly-CSharp
+        m_MethodName: DoDrawCards
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   PlayerSelectedCardCanBeDiscarded:
     m_PersistentCalls:
       m_Calls:
@@ -807,7 +831,19 @@ MonoBehaviour:
         m_CallState: 2
   PlayerDiscardedCard:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 997337667393153595}
+        m_TargetAssemblyTypeName: DiscardController, Assembly-CSharp
+        m_MethodName: DoDiscardCard
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   PlayerDrewCard:
     m_PersistentCalls:
       m_Calls:
@@ -825,13 +861,88 @@ MonoBehaviour:
         m_CallState: 2
   PlayerPlayedCreatureCard:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 997337668646466866}
+        m_TargetAssemblyTypeName: ManaController, Assembly-CSharp
+        m_MethodName: DoLoseManaFromCard
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 997337668369983817}
+        m_TargetAssemblyTypeName: HandController, Assembly-CSharp
+        m_MethodName: DoCardRemove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   PlayerSentCardToDrawPile:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 997337667415954300}
         m_TargetAssemblyTypeName: DrawController, Assembly-CSharp
         m_MethodName: DoAddCardToDrawPile
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  PlayerBoughtCard:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1437866800}
+        m_TargetAssemblyTypeName: BuyController, Assembly-CSharp
+        m_MethodName: DoBuy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 997337667834752441}
+        m_TargetAssemblyTypeName: DeckController, Assembly-CSharp
+        m_MethodName: AddCardToDeck
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 997337667393153595}
+        m_TargetAssemblyTypeName: DiscardController, Assembly-CSharp
+        m_MethodName: DoDiscardCard
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 997337668646466866}
+        m_TargetAssemblyTypeName: ManaController, Assembly-CSharp
+        m_MethodName: DoLoseManaFromCard
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -921,7 +1032,19 @@ MonoBehaviour:
         m_CallState: 2
   ManaValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: StoreController, Assembly-CSharp
+        m_MethodName: CheckIfCanBuy
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!210 &997337668178495133
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -931,7 +1054,7 @@ SortingGroup:
   m_GameObject: {fileID: 997337668178495128}
   m_Enabled: 1
   m_SortingLayerID: 1208629749
-  m_SortingLayer: 8
+  m_SortingLayer: 7
   m_SortingOrder: 1
 --- !u!1 &997337668369983819
 GameObject:
@@ -977,6 +1100,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b0d27a36f0592a46b6dd2a05c8dd1ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DiscardAllCards:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 997337667393153595}
+        m_TargetAssemblyTypeName: DiscardController, Assembly-CSharp
+        m_MethodName: DoDiscardCards
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   cardsInHand: []
   maxHandSize: 8
   minXHandLocation: {fileID: 0}
@@ -1122,8 +1260,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -1, y: -3, z: 0}
-  m_Size: {x: 5, y: 3, z: 1}
+  m_Origin: {x: -6, y: -3, z: 0}
+  m_Size: {x: 14, y: 12, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -1182,7 +1320,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1208629749
-  m_SortingLayer: 8
+  m_SortingLayer: 7
   m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}

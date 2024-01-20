@@ -36,7 +36,7 @@ public class DrawController : MonoBehaviour
    {
         for (int i = numberOfCards; i > 0; i--)
         {
-            Debug.Log($"Drawing card number: {i}");
+            Debug.Log($"Drawing card number: {i} cardsInDrawPile.Count: {cardsInDrawPile.Count}");
             if (cardsInDrawPile.Count == 0)
             {
                 Debug.Log("Draw pile is empty");

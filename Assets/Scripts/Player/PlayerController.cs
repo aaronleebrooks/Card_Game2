@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
         PlayerDiscardedCard.AddListener((card) => card.CardDiscarded.Invoke(card));
         PlayerDrewCard.AddListener((card) => card.DoDrawCard());
         PlayerSentCardToDrawPile.AddListener((card) => card.CardSentToDrawPile.Invoke(card));
-        PlayerSentCardToDrawPile.Invoke(card);
+        PlayerDiscardedCard.Invoke(card);
         PlayerCardInitialized.Invoke(card);
     }
 
