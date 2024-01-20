@@ -934,7 +934,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276357972}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1213,7 +1213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   battle: {fileID: 11400000, guid: 9acf4642eeff5d44ca23485397a20a49, type: 2}
   player: {fileID: 1893877453}
-  enemy: {fileID: 0}
+  enemy: {fileID: 380797417553317203}
   InitStoreEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1256,6 +1256,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  InitEnemyEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 380797417553317203}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: DoInitializePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   PlayerTurnStartEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1274,7 +1289,7 @@ MonoBehaviour:
   EnemyTurnStartEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 380797417553317203}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: DoStartTurn
         m_Mode: 1
@@ -1304,9 +1319,9 @@ MonoBehaviour:
   EnemyTurnMainEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 380797417553317203}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: DoMainTurn
+        m_MethodName: DoEndTurn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1334,7 +1349,7 @@ MonoBehaviour:
   EnemyTurnEndEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 380797417553317203}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: DoEndTurn
         m_Mode: 1
@@ -2136,10 +2151,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 557400620}
-  - component: {fileID: 557400621}
+  - component: {fileID: 557400624}
   - component: {fileID: 557400622}
   - component: {fileID: 557400623}
+  - component: {fileID: 557400626}
+  - component: {fileID: 557400625}
   m_Layer: 0
   m_Name: Trash Pile
   m_TagString: Untagged
@@ -2147,74 +2163,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &557400620
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557400619}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.6, y: -2.99, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
-  m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 851970270}
-  m_Father: {fileID: 1307323084}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &557400621
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557400619}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -628356831
-  m_SortingLayer: 4
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 34fe7be4686198541a94412163a9b2bd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!114 &557400622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2250,6 +2198,65 @@ MonoBehaviour:
   CardPileOffHovered:
     m_PersistentCalls:
       m_Calls: []
+--- !u!224 &557400624
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557400619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 851970270}
+  m_Father: {fileID: 1307323084}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 11.95, y: -2.4}
+  m_SizeDelta: {x: 0.64, y: 0.64}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &557400625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557400619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 34fe7be4686198541a94412163a9b2bd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &557400626
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557400619}
+  m_CullTransparentMesh: 1
 --- !u!1 &559756320
 GameObject:
   m_ObjectHideFlags: 0
@@ -17899,7 +17906,7 @@ Transform:
   m_Children:
   - {fileID: 197253185}
   m_Father: {fileID: 1307323084}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &835011649
 SpriteRenderer:
@@ -18305,7 +18312,7 @@ Transform:
   m_LocalScale: {x: 0.92, y: 0.87, z: 0.92}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 557400620}
+  m_Father: {fileID: 557400624}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &851970271
@@ -19724,9 +19731,9 @@ Transform:
   m_Children:
   - {fileID: 174516877}
   - {fileID: 276357976}
+  - {fileID: 557400624}
   - {fileID: 2040288036}
   - {fileID: 835011648}
-  - {fileID: 557400620}
   - {fileID: 942711626}
   - {fileID: 1731170480970508371}
   - {fileID: 1224816525}
@@ -36663,12 +36670,12 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040288035}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1307323084}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -37236,7 +37243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numPlayfieldLocations: 5
-  minPlayLocation: {fileID: 1066772123}
+  minPlayLocation: {fileID: 1441735692}
   maxPlayLocation: {fileID: 0}
 --- !u!1 &380797416699107708
 GameObject:
@@ -37603,18 +37610,6 @@ MonoBehaviour:
   ManaChangedEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1200956656}
-        m_TargetAssemblyTypeName: TextController, Assembly-CSharp
-        m_MethodName: UpdateText
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 380797417553317203}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: SetManaValue
@@ -37639,7 +37634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6963e6a8b1bce541a8a882d47ddf950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deckData: {fileID: 11400000, guid: 8f1ee6e1030240e4ab15fde8e9aedf44, type: 2}
+  deckData: {fileID: 11400000, guid: f76a0ad5c724c664dbf2e7a549eb29d9, type: 2}
   spellCardPrefab: {fileID: 1731170479528918890, guid: e1aee8aeb0c6b6a48b46c65fe83f8d9d, type: 3}
   creatureCardPrefab: {fileID: 1731170479528918890, guid: 01cee6d86cb92ca43bfff9ccf04624bb, type: 3}
   CardInitialized:
@@ -37737,7 +37732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a87826e05bd61e4a96192a614383385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerData: {fileID: 11400000, guid: 673868f33a004c343956afa02e9fd670, type: 2}
+  playerData: {fileID: 11400000, guid: 63d14dcd20cc59443ba7ac2e3b548cc0, type: 2}
   PlayerInitialized:
     m_PersistentCalls:
       m_Calls:
@@ -37757,18 +37752,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: DeckController, Assembly-CSharp
         m_MethodName: DoInitializeDeck
         m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 380797416699107706}
-        m_TargetAssemblyTypeName: PlayfieldController, Assembly-CSharp
-        m_MethodName: InitializePlayfieldPositions
-        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -37804,10 +37787,10 @@ MonoBehaviour:
   PlayerCardInitialized:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 380797417864452273}
-        m_TargetAssemblyTypeName: DrawController, Assembly-CSharp
-        m_MethodName: StartShuffleDrawPile
-        m_Mode: 1
+      - m_Target: {fileID: 380797417553317206}
+        m_TargetAssemblyTypeName: EnemyController, Assembly-CSharp
+        m_MethodName: HideCard
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -38217,6 +38200,7 @@ GameObject:
   - component: {fileID: 380797417553317202}
   - component: {fileID: 380797417553317203}
   - component: {fileID: 380797417553317200}
+  - component: {fileID: 380797417553317206}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -38224,6 +38208,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &380797417553317206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380797417553317205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea912a28b610904bb95ed233c81258a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &380797417850036726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38240,7 +38236,7 @@ MonoBehaviour:
   MoveDiscardCardToDiscardPile:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 835011647}
+      - m_Target: {fileID: 380797417850036727}
         m_TargetAssemblyTypeName: CardPositionController, Assembly-CSharp
         m_MethodName: OnMoveCardToThisPosition
         m_Mode: 0
@@ -38291,8 +38287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0606fc240fc3f9d48a4d86c84edf0f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  position: 0
+  speed: 5
+  position: 2
 --- !u!1 &380797417850036728
 GameObject:
   m_ObjectHideFlags: 0
@@ -38379,6 +38375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 380797417853322892}
   - component: {fileID: 380797417853322893}
+  - component: {fileID: 380797417853322896}
   m_Layer: 0
   m_Name: GraveyardController
   m_TagString: Untagged
@@ -38386,6 +38383,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &380797417853322896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380797417853322895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0606fc240fc3f9d48a4d86c84edf0f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  position: 5
 --- !u!4 &380797417864452272
 Transform:
   m_ObjectHideFlags: 0
@@ -38446,7 +38457,7 @@ MonoBehaviour:
   MoveDrawCardToDrawPile:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 942711628}
+      - m_Target: {fileID: 380797417864452276}
         m_TargetAssemblyTypeName: CardPositionController, Assembly-CSharp
         m_MethodName: OnMoveCardToThisPosition
         m_Mode: 0
@@ -38469,6 +38480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 380797417864452272}
   - component: {fileID: 380797417864452273}
+  - component: {fileID: 380797417864452276}
   m_Layer: 0
   m_Name: DrawController
   m_TagString: Untagged
@@ -38476,6 +38488,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &380797417864452276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380797417864452275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0606fc240fc3f9d48a4d86c84edf0f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  position: 0
 --- !u!4 &380797417909413812
 Transform:
   m_ObjectHideFlags: 0
@@ -38698,6 +38724,10 @@ PrefabInstance:
       propertyPath: HealthChangedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 559756325}
+    - target: {fileID: 997337667393153594, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 997337667393153595, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: MoveDiscardCardToDiscardPile.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -38729,6 +38759,10 @@ PrefabInstance:
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerTurnStarted.m_PersistentCalls.m_Calls.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerCardInitialized.m_PersistentCalls.m_Calls.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.size
@@ -38867,6 +38901,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerCardInitialized.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerTurnStarted.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: TriggerNextTurnPhase
       objectReference: {fileID: 0}
@@ -38914,6 +38952,10 @@ PrefabInstance:
       propertyPath: ResetSelectionHighlights.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
       objectReference: {fileID: 1842723945}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerCardInitialized.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -38999,6 +39041,10 @@ PrefabInstance:
       value: BattleController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerCardInitialized.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: ManaController, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -39041,6 +39087,10 @@ PrefabInstance:
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerTurnStarted.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerCardInitialized.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerPlayedCreatureCard.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

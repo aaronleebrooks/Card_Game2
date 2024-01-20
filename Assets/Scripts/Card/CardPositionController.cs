@@ -30,6 +30,6 @@ public class CardPositionController : MonoBehaviour
 
     private void MoveCardToThisPosition(Card card)
     {
-        card.DoMoveCard(this.transform.position, position);
+        card.DoMoveCard(this.transform, position);
     }
 }

@@ -22,6 +22,8 @@ public class Card : MonoBehaviour
     private Position position;
     private bool isSelected = false;
     private bool isMoving = false;
+
+    private bool isHidden = false;
     public UnityEvent<SO_Card> CardInitializedEvent = new UnityEvent<SO_Card>();
     public UnityEvent<Card> CardSentToDrawPile = new UnityEvent<Card>();
     public UnityEvent<Card> CardDiscarded = new UnityEvent<Card>();
@@ -33,6 +35,8 @@ public class Card : MonoBehaviour
     public UnityEvent<Card> CardOffHoveredEvent = new UnityEvent<Card>();
     public UnityEvent CardFaceUpEvent = new UnityEvent();
     public UnityEvent CardFaceDownEvent = new UnityEvent();
+    public UnityEvent CardHideEvent = new UnityEvent();
+    public UnityEvent CardUnhideEvent = new UnityEvent();
     private PlayerController owner;
 
     private void Awake()
@@ -48,10 +52,10 @@ public class Card : MonoBehaviour
         CardInitializedEvent.Invoke(cardData);
     }
 
-    public void DoMoveCard(Vector3 value, Position position)
+    public void DoMoveCard(Transform value, Position position)
     {
-        Debug.Log($"DoMoveCard called with value: {value} and position: {position}");
-        GetComponent<CardMovementController>().RequestMoveCard(this as Card, value, position);
+        Debug.Log($"DoMoveCard called with value: {value.position} and position: {position}");
+        GetComponent<CardMovementController>().RequestMoveCard(this as Card, value.position, position);
     }
 
     public void DoSetPosition(Position value)
@@ -69,6 +73,10 @@ public class Card : MonoBehaviour
     public void DoFlipCard(bool value)
     {
         Debug.Log($"DoFlipCard called with value: {value}");
+        if(isHidden)
+        {
+            return;
+        }
         if (value)
         {
             CardFaceUpEvent.Invoke();
@@ -77,6 +85,16 @@ public class Card : MonoBehaviour
         {
             CardFaceDownEvent.Invoke();
         }
+    }
+
+    public void DoDrawCard()
+    {
+        Debug.Log("DoDrawCard called");
+        if(isHidden)
+        {
+            return;
+        }
+        CardDrawn.Invoke(this as Card);
     }
 
     public void DoSetMoving(bool value)
@@ -175,14 +193,23 @@ public class Card : MonoBehaviour
 
     public void HideCard()
     {
-        Debug.Log("HideCard casalled");
-        gameObject.SetActive(false);
+        Debug.Log("DoHideCard called");
+        isHidden = true;
+        this.GetComponent<BoxCollider2D>().enabled = false;
+        CardHideEvent.Invoke();
     }
 
     public void ToggleCardHidden(bool value)
     {
         Debug.Log($"ToggleCardHidden called with value: {value}");
-        gameObject.SetActive(!value);
+        if (value)
+        {
+            isHidden = true;
+            CardHideEvent.Invoke();
+            return;
+        }
+        isHidden = false;
+        CardUnhideEvent.Invoke();
     }
 
     public void SetSortingLayer(string value)

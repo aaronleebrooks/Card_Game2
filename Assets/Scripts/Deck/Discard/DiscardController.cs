@@ -17,6 +17,7 @@ public class DiscardController : MonoBehaviour
         Debug.Log($"DoDiscardCard called with card: {card.name}");
         cardsInDiscardPile.Add(card);
         card.GetComponent<BoxCollider2D>().enabled = false;
+        card.transform.parent = transform;
         MoveDiscardCardToDiscardPile.Invoke(card);
     }
 

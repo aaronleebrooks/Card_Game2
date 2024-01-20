@@ -11,6 +11,7 @@ public class BattleController : MonoBehaviour
     public PlayerController enemy;
     public UnityEvent<SO_Deck> InitStoreEvent = new UnityEvent<SO_Deck>();
     public UnityEvent InitPlayerEvent = new UnityEvent();
+    public UnityEvent InitEnemyEvent = new UnityEvent();
     public UnityEvent PlayerTurnStartEvent = new UnityEvent();
     public UnityEvent EnemyTurnStartEvent = new UnityEvent();
     public UnityEvent PlayerTurnMainEvent = new UnityEvent();
@@ -39,6 +40,7 @@ public class BattleController : MonoBehaviour
     private void InitializeBattle()
     {
         Debug.Log("Battle initialized");
+        InitEnemyEvent.Invoke();
         InitPlayerEvent.Invoke();
         InitStoreEvent.Invoke(battle.storeDeck);
     }

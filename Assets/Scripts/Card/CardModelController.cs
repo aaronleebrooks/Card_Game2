@@ -14,6 +14,8 @@ public class CardModelController : MonoBehaviour
     public UnityEvent<Sprite> SetLayout = new UnityEvent<Sprite>();
     public UnityEvent<Sprite> SetBackground = new UnityEvent<Sprite>();
     public UnityEvent<Sprite> SetMainImage = new UnityEvent<Sprite>();
+    public UnityEvent HideCard = new UnityEvent();
+    public UnityEvent UnhideCard = new UnityEvent();
 
     public void OnCardInitialized(SO_Card card)
     {
@@ -39,5 +41,17 @@ public class CardModelController : MonoBehaviour
             SetMainImage.Invoke(creatureCard.creatureModel);
             Debug.Log($"CardModelController: SetMainImage invoked with {creatureCard.creatureModel.name}");
         }
+    }
+
+    public void OnCardHide()
+    {
+        Debug.Log("CardModelController: Called OnCardHide");
+        HideCard.Invoke();
+    }
+
+    public void OnCardUnhide()
+    {
+        Debug.Log("CardModelController: Called OnCardUnhide");
+        UnhideCard.Invoke();
     }
 }

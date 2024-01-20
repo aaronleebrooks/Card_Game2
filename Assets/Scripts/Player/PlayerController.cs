@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
         card.CardClickedInHandEvent.AddListener(DoSelectCardInHand);
         PlayerDiscardedCardForMana.AddListener((card) => card.CardDiscarded.Invoke(card));
         PlayerDiscardedCard.AddListener((card) => card.CardDiscarded.Invoke(card));
-        PlayerDrewCard.AddListener((card) => card.CardDrawn.Invoke(card));
+        PlayerDrewCard.AddListener((card) => card.DoDrawCard());
         PlayerSentCardToDrawPile.AddListener((card) => card.CardSentToDrawPile.Invoke(card));
         PlayerSentCardToDrawPile.Invoke(card);
         PlayerCardInitialized.Invoke(card);

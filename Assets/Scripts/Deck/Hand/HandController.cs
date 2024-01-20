@@ -67,6 +67,7 @@ public class HandController : MonoBehaviour
                 handLocations[i].gameObject.SetActive(true);
                 Vector3 newPosition = new Vector3(minX + (step * i), handLocations[i].transform.position.y, handLocations[i].transform.position.z);
                 handLocations[i].transform.position = newPosition;
+                cardsInHand[i].transform.parent = handLocations[i].transform;
                 handLocations[i].OnMoveCardToThisPosition(cardsInHand[i]);
                 cardsInHand[i].GetComponent<CardMovementController>().OnCardMoveEnd.AddListener(
                     (card) => {

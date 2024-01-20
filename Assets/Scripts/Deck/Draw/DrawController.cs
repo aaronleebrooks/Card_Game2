@@ -18,6 +18,7 @@ public class DrawController : MonoBehaviour
     {
         cardsInDrawPile.Add(card);
         card.DoFlipCard(false);
+        card.transform.parent = transform;
         MoveDrawCardToDrawPile.Invoke(card);
     }
 
