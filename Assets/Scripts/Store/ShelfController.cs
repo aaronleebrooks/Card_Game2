@@ -10,13 +10,14 @@ public class ShelfController : MonoBehaviour
     public int typeId;
     private int stock;
     private int price;
-    public Button BuyButton;
+    public SpriteButton BuyButton;
     public GameObject SoldOutSign;
     public CardPositionController cardPositionController;
     public UnityEvent<int> StockChangedEvent = new UnityEvent<int>();
+    public UnityEvent<bool> ShelfHiddenEvent = new UnityEvent<bool>();
     public UnityEvent<Card> CardBoughtEvent = new UnityEvent<Card>();
     public bool isMasked = true;
-    public Mask mask;
+    public SpriteMask mask;
 
     public void ToggleMask(bool value)
     {
@@ -24,6 +25,7 @@ public class ShelfController : MonoBehaviour
         {
             Debug.Log($"ToggleMask: Toggling mask to {!value}");
             mask.enabled = !value;
+            ShelfHiddenEvent.Invoke(value);
             shelfCard.ToggleCardHidden(!value);
         }
         else
@@ -45,7 +47,8 @@ public class ShelfController : MonoBehaviour
         price = card.cost;
         card.SetSortingLayer("Store");
         card.SetSortingOrder(10);
-        BuyButton.interactable = false;
+        card.SetColliderEnabled(false);
+        BuyButton.OnDisable();
         SoldOutSign.SetActive(false);
         StockChangedEvent.Invoke(stock);
         card.SetParent(cardPositionController.transform);
@@ -99,6 +102,11 @@ public class ShelfController : MonoBehaviour
     public void SetBuyEnabled(bool value)
     {
         Debug.Log($"SetBuyEnabled: Setting buy button enabled to {value}");
-        BuyButton.interactable = value;
+        if (value)
+        {
+            BuyButton.OnEnable();
+            return;
+        }
+        BuyButton.OnDisable();
     }
 }

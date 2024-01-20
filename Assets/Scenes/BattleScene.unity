@@ -704,14 +704,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193619988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.794, y: -0.44650006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 573488834}
-  m_Father: {fileID: 1439603695}
-  m_RootOrder: 4
+  m_Father: {fileID: 599466100}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &193619990
 MonoBehaviour:
@@ -762,7 +762,7 @@ MonoBehaviour:
   creatureCardPrefab: {fileID: 1731170479528918890, guid: 01cee6d86cb92ca43bfff9ccf04624bb, type: 3}
   spellCardPrefab: {fileID: 1731170479528918890, guid: e1aee8aeb0c6b6a48b46c65fe83f8d9d, type: 3}
   shelfPrefab: {fileID: 895256955661248775, guid: 653a280cfca0290459a9005bb1a7f711, type: 3}
-  shelvesGrid: {fileID: 2066483391}
+  shelvesGrid: {fileID: 695140296}
 --- !u!1 &197253184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,11 +2459,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573488833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.20599997, y: 0.35650006, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 2066483392}
+  - {fileID: 695140298}
   m_Father: {fileID: 193619989}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2519,7 +2519,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1577631997
   m_SortingLayer: 8
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -17650,6 +17650,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1439603695}
+  - {fileID: 193619989}
   - {fileID: 804555812}
   m_Father: {fileID: 825648775}
   m_RootOrder: 0
@@ -17765,6 +17766,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8826448654321613650, guid: bb231b1587044fd48b4c6015ee75f725, type: 3}
   m_PrefabInstance: {fileID: 616159581}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &695140296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 695140298}
+  - component: {fileID: 695140297}
+  m_Layer: 0
+  m_Name: Shelves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &695140297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695140296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 1, y: 1}
+  m_Spacing: {x: 6.5, y: 5}
+  m_Constraint: 1
+  m_ConstraintCount: 5
+--- !u!224 &695140298
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695140296}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8999999, y: 0.8999999, z: 0.8999999}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 573488834}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 18.900007, y: 5.4999948}
+  m_SizeDelta: {x: 35.658, y: 11.23333}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &804555811
 GameObject:
   m_ObjectHideFlags: 0
@@ -17797,7 +17859,7 @@ RectTransform:
   - {fileID: 359243502}
   - {fileID: 1069814984}
   m_Father: {fileID: 599466100}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -21665,7 +21727,6 @@ Transform:
   - {fileID: 1307323084}
   - {fileID: 158157788}
   - {fileID: 432832657}
-  - {fileID: 193619989}
   m_Father: {fileID: 599466100}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -36813,67 +36874,6 @@ Transform:
   m_Father: {fileID: 432832657}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2066483391
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2066483392}
-  - component: {fileID: 2066483393}
-  m_Layer: 0
-  m_Name: Shelves
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2066483392
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066483391}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.94, y: 0.94, z: 0.94}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 573488834}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23.79, y: 2.55}
-  m_SizeDelta: {x: 34.02, y: 10.77643}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2066483393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066483391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 1.14, y: 0.84}
-  m_Spacing: {x: 4.5, y: 4}
-  m_Constraint: 1
-  m_ConstraintCount: 5
 --- !u!1 &2091146661
 GameObject:
   m_ObjectHideFlags: 0
@@ -38120,21 +38120,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  ManaValueChanged:
+  BuyingPowerChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 193619990}
-        m_TargetAssemblyTypeName: StoreController, Assembly-CSharp
-        m_MethodName: CheckIfCanBuy
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &380797417553317205
 GameObject:
   m_ObjectHideFlags: 0
@@ -38687,13 +38675,33 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
-      propertyPath: ManaValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 193619990}
+      objectReference: {fileID: 1893877453}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerTurnStarted.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 300663642}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: BuyingPowerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 193619990}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: DoBuyingPowerChanged
+      objectReference: {fileID: 0}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: ResetSelectionHighlights.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -38739,9 +38747,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1842723945}
     - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: PlayerController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: PlayerSelectedCardCanBeDiscarded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 197253186}
+    - target: {fileID: 997337668178495134, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
+      propertyPath: PlayerBoughtCard.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 997337668178495135, guid: 4f578be789baf3b418a93bad90b4c8a5, type: 3}
       propertyPath: m_RootOrder
       value: 2

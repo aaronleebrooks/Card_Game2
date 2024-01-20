@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class StoreController : MonoBehaviour
 {
     public SO_Deck storeDeck;
-    private int defaultStock = 10;
+    private int defaultStock = 9;
     private Dictionary<int, int> cardStock = new Dictionary<int, int>();
     public List<Card> cardsInStore = new List<Card>();
 

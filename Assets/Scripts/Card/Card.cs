@@ -239,4 +239,10 @@ public class Card : MonoBehaviour
             Debug.LogError("No SortingGroup component found.");
         }
     }
+
+    public void SetColliderEnabled(bool value)
+    {
+        Debug.Log($"SetColliderEnabled called with value: {value}");
+        GetComponent<BoxCollider2D>().enabled = value;
+    }
 }

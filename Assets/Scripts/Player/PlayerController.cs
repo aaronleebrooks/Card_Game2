@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     public UnityEvent<Card> PlayerBoughtCard = new UnityEvent<Card>();
     public UnityEvent PlayerDrewHand = new UnityEvent();
     public UnityEvent ResetSelectionHighlights = new UnityEvent();
-    public UnityEvent<int> ManaValueChanged = new UnityEvent<int>();
+    public UnityEvent<int> BuyingPowerChanged = new UnityEvent<int>();
     private Card selectedCardInHand;
 
     private void Start()
@@ -129,8 +129,19 @@ public class PlayerController : MonoBehaviour
         mana = value;
         if (buys > 0)
         {
-            ManaValueChanged.Invoke(mana);
+            DoBuyingPowerChanged();
         }
+    }
+
+    public void DoBuyingPowerChanged()
+    {
+        if (buys > 0)
+        {
+            BuyingPowerChanged.Invoke(mana);
+            return;
+        }
+
+        BuyingPowerChanged.Invoke(0);
     }
 
     public void DoPlayCreatureCard(PlayfieldPosition position)
